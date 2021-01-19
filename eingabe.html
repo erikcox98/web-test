@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="de">
+	<head>
+		<title> 
+			Input
+		</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Erstellen von Tabelle">
+		<meta name="keywords" content="HTML Lehrbuch">
+		<meta name="author" content="coxindustries">
+	</head>
+	<body>
+		<form action = "eingabe.html" method = "get">
+			ihr Vorname:
+			<input type ="text" name = "vorname" size="10"><br><br>
+			Ihr Nachname:
+			<input type = "text" name = "nachname" size="10"><br><br>
+			<input type = "radio" name = "geschlecht" value = "weiblich">Weiblich
+			<input type = "radio" name = "geschlecht" value = "mänlich">Mänlich
+			<input type = "radio" name = "geschlecht" value = "keineAngabe" checked>Keine Angabe<br><br>
+			<select name = "arbeit">
+				<option value = "softi">Softwareengineer</option>
+				<option value = "vader">Darth Vader</option>
+				<option value = "maul">Darth Maul</option>
+				<option value = "doku">Darth Tyrannus</option>
+				<option value = "palp">Darth Sidious</option>
+				<option value = "choose" selected>Bitte Wählen</option>
+			</select><br><br>
+			<input type = "checkbox" value = "interssiert" name = "ok" checked>Newsletter abonieren<br>
+			<input type = "checkbox" value = "nicht" name = "ok">nicht abonieren<br><br>
+			<textarea name = "kommentar" rows = "7" cols = "60" placeholder = "Fügen Sie ihren Kommentar hier ein!"></textarea><br><br>
+			<input type = "submit" value = "Formular abschicken">
+			<input type = "reset" value = "Werte zurücksetzen">
+		</form>
+	</body>
+</html>
